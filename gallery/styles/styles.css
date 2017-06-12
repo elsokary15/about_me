@@ -1,0 +1,38 @@
+.header{
+	width: 100%
+	height: auto;	
+}
+
+.header h1{
+	width: 100%;
+	text-align: center;
+}
+
+
+.imageone{
+	width: 45%;
+	height: auto;
+	float: left;
+	margin: 22px;
+	display: block;
+}
+
+.imageone img{
+	width: 100%;
+	height: auto;
+	
+}
+
+@media all and (max-width: 400px) {
+	.imageone{
+		width: 100%;
+		margin: 0;
+		border: none;	
+	}
+
+@media all and (min-width: 400px) {
+	.imageone{
+		width: 100%;
+		margin:0;
+		border:none;
+	}
